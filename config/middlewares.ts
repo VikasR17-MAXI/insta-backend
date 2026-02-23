@@ -1,18 +1,18 @@
-module.exports = [
-  'strapi::errors',
-  'strapi::security',
+export default [
+  "strapi::errors",
   {
-    name: 'strapi::cors',
+    name: "strapi::cors",
     config: {
-      origin: ['*'],
-      headers: ['Content-Type', 'Authorization'],
+      origin: ["*"],
+      headers: "*",
     },
   },
-  'strapi::poweredBy',
-  'strapi::logger',
-  'strapi::query',
-  'strapi::body',
-  'strapi::session',
-  'strapi::favicon',
-  'strapi::public',
+  "strapi::security",
+  "strapi::poweredBy",
+  "strapi::logger",
+  "strapi::query",
+  "strapi::body",
+  "strapi::session",
+  "strapi::favicon",
+  "strapi::public",
 ];
