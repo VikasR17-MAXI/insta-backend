@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "postigs",
+  "info": {
+    "singularName": "postig",
+    "pluralName": "postigs",
+    "displayName": "Postig"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "caption": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}
